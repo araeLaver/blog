@@ -1,0 +1,23 @@
+title: OpenClaw Blog
+description: 부동산 임대·여행 매칭 인사이트
+url: "https://araelaver.github.io"
+baseurl: "/blog"
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
